@@ -1,76 +1,58 @@
-2023-12-18 22:55:32 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2023-12-18 22:55:41 | INFO    | __main__:claim_epic_games:97 | Try to flush cookie - {'task': 'claim_epic_games'}
-2023-12-18 22:55:44 | INFO    | epic_games.agent:_login:237 | login-with-email - {'url': 'https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https://store.epicgames.com/en-US/free-games'}
-2023-12-18 22:55:48 | DEBUG    | epic_games.agent:insert_challenge:215 | Attack challenge - {'stage': 'email_exists_prod'}
-2023-12-18 22:55:48 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing a forest'}
-2023-12-18 22:55:48 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_match_model:251 | handle task - {'match_model': 'resnet', 'prompt': 'Please click each image containing a forest'}
-2023-12-18 22:55:50 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2023-12-18 22:55:53 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click at the nose'}
-2023-12-18 22:55:59 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2023-12-18 22:56:02 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing a forest'}
-2023-12-18 22:56:02 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_match_model:251 | handle task - {'match_model': 'resnet', 'prompt': 'Please click each image containing a forest'}
-2023-12-18 22:56:08 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2023-12-18 22:56:11 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing an object used in garden'}
-2023-12-18 22:56:12 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like object used in garden.', "This is a picture that don't look like object used in garden."], 'prompt': 'Please click each image containing an object used in garden', 'timit': '0.936s'}
-2023-12-18 22:56:20 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2023-12-18 22:56:25 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing an object used in garden'}
-2023-12-18 22:56:26 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like object used in garden.', "This is a picture that don't look like object used in garden."], 'prompt': 'Please click each image containing an object used in garden', 'timit': '0.753s'}
-2023-12-18 22:56:40 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2023-12-18 22:56:43 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing an object used in garden'}
-2023-12-18 22:56:44 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like object used in garden.', "This is a picture that don't look like object used in garden."], 'prompt': 'Please click each image containing an object used in garden', 'timit': '0.724s'}
-2023-12-18 22:56:53 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_SUCCESS: 'success'>}
-2023-12-18 22:57:23 | WARNING    | epic_games.agent:authorize:266 | 执行超时 - {'task': 'authorize', 'retry': 0}
-2023-12-18 22:57:25 | INFO    | epic_games.agent:_login:237 | login-with-email - {'url': 'https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https://store.epicgames.com/en-US/free-games'}
-2023-12-18 22:57:29 | DEBUG    | epic_games.agent:insert_challenge:215 | Attack challenge - {'stage': 'email_exists_prod'}
-2023-12-18 22:57:29 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing an object used in garden'}
-2023-12-18 22:57:30 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like object used in garden.', "This is a picture that don't look like object used in garden."], 'prompt': 'Please click each image containing an object used in garden', 'timit': '0.685s'}
-2023-12-18 22:57:43 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2023-12-18 22:57:46 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing a forest'}
-2023-12-18 22:57:46 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_match_model:251 | handle task - {'match_model': 'resnet', 'prompt': 'Please click each image containing a forest'}
-2023-12-18 22:57:54 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2023-12-18 22:57:58 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click at the nose'}
-2023-12-18 22:58:05 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2023-12-18 22:58:09 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click at the nose'}
-2023-12-18 22:58:14 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2023-12-18 22:58:18 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing a forest'}
-2023-12-18 22:58:18 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_match_model:251 | handle task - {'match_model': 'resnet', 'prompt': 'Please click each image containing a forest'}
-2023-12-18 22:58:21 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2023-12-18 22:58:25 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click at the nose'}
-2023-12-18 22:58:30 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2023-12-18 22:58:34 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click at the nose'}
-2023-12-18 22:58:39 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2023-12-18 22:58:42 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing an object used in garden'}
-2023-12-18 22:58:43 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like object used in garden.', "This is a picture that don't look like object used in garden."], 'prompt': 'Please click each image containing an object used in garden', 'timit': '0.723s'}
-2023-12-18 22:58:51 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_SUCCESS: 'success'>}
-2023-12-18 22:59:21 | WARNING    | epic_games.agent:authorize:266 | 执行超时 - {'task': 'authorize', 'retry': 1}
-2023-12-18 22:59:23 | INFO    | epic_games.agent:_login:237 | login-with-email - {'url': 'https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https://store.epicgames.com/en-US/free-games'}
-2023-12-18 22:59:27 | DEBUG    | epic_games.agent:insert_challenge:215 | Attack challenge - {'stage': 'email_exists_prod'}
-2023-12-18 22:59:27 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click at the nose'}
-2023-12-18 22:59:32 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2023-12-18 22:59:36 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing a forest'}
-2023-12-18 22:59:36 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_match_model:251 | handle task - {'match_model': 'resnet', 'prompt': 'Please click each image containing a forest'}
-2023-12-18 22:59:40 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_SUCCESS: 'success'>}
-2023-12-18 23:00:10 | WARNING    | epic_games.agent:authorize:266 | 执行超时 - {'task': 'authorize', 'retry': 2}
-2023-12-18 23:00:10 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3759), thread 'MainThread' (139853620317056): - {}
-Traceback (most recent call last):
-  File "/home/runner/work/epic-claimer/epic-claimer/epic/src/claim.py", line 162, in <module>
-    asyncio.run(run())
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/asyncio/runners.py", line 44, in run
-    return loop.run_until_complete(main)
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
-    self.run_forever()
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
-    self._run_once()
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/asyncio/base_events.py", line 1909, in _run_once
-    handle._run()
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/asyncio/events.py", line 80, in _run
-    self._context.run(self._callback, *self._args)
-> File "/home/runner/work/epic-claimer/epic-claimer/epic/src/claim.py", line 158, in run
-    await agent.stash()
-  File "/home/runner/work/epic-claimer/epic-claimer/epic/src/claim.py", line 151, in stash
-    await self.claim_epic_games(context)
-  File "/home/runner/work/epic-claimer/epic-claimer/epic/src/claim.py", line 98, in claim_epic_games
-    if await epic.authorize(page):
-  File "/home/runner/work/epic-claimer/epic-claimer/epic/src/epic_games/agent.py", line 269, in authorize
-    raise RuntimeError(f"Failed to flush token - agent={self.__class__.__name__}")
-RuntimeError: Failed to flush token - agent=EpicGames
+2023-12-19 04:26:04 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2023-12-19 04:26:12 | INFO    | __main__:claim_epic_games:97 | Try to flush cookie - {'task': 'claim_epic_games'}
+2023-12-19 04:26:14 | INFO    | epic_games.agent:_login:237 | login-with-email - {'url': 'https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https://store.epicgames.com/en-US/free-games'}
+2023-12-19 04:26:18 | DEBUG    | epic_games.agent:insert_challenge:215 | Attack challenge - {'stage': 'email_exists_prod'}
+2023-12-19 04:26:18 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please identify all flying birds and click on them'}
+2023-12-19 04:26:19 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please identify all flying birds and click on them.', "This is a picture that don't look like please identify all flying birds and click on them."], 'prompt': 'Please identify all flying birds and click on them', 'timit': '1.041s'}
+2023-12-19 04:26:28 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_SUCCESS: 'success'>}
+2023-12-19 04:26:33 | DEBUG    | epic_games.agent:insert_challenge:209 | Attack challenge - {'stage': 'login_prod'}
+2023-12-19 04:26:33 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Ρlease identify all flying birds and click οn them'}
+2023-12-19 04:26:34 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like ρlease identify all flying birds and click on them.', "This is a picture that don't look like ρlease identify all flying birds and click on them."], 'prompt': 'Ρlease identify all flying birds and click οn them', 'timit': '0.828s'}
+2023-12-19 04:26:43 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2023-12-19 04:26:49 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please identify all flying birds and click on tһem'}
+2023-12-19 04:26:50 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please identify all flying birds and click on them.', "This is a picture that don't look like please identify all flying birds and click on them."], 'prompt': 'Please identify all flying birds and click on tһem', 'timit': '0.773s'}
+2023-12-19 04:26:58 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2023-12-19 04:27:02 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Ρlease identify all flying birds and click on them'}
+2023-12-19 04:27:03 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like ρlease identify all flying birds and click on them.', "This is a picture that don't look like ρlease identify all flying birds and click on them."], 'prompt': 'Ρlease identify all flying birds and click on them', 'timit': '0.732s'}
+2023-12-19 04:27:19 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2023-12-19 04:27:25 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': "Pleaѕe clіck on the cow's nose"}
+2023-12-19 04:27:31 | DEBUG    | hcaptcha_challenger.agents.playwright.control:lookup_objects:317 | handle task - {'catch_model': 'COCO2020_yolov8m.onnx', 'ash': "please click on the cow's nose default"}
+2023-12-19 04:27:35 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2023-12-19 04:27:40 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please identify all flying birds and click on them'}
+2023-12-19 04:27:40 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please identify all flying birds and click on them.', "This is a picture that don't look like please identify all flying birds and click on them."], 'prompt': 'Please identify all flying birds and click on them', 'timit': '0.743s'}
+2023-12-19 04:27:51 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2023-12-19 04:27:54 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please identifу all flying birds and click on them'}
+2023-12-19 04:27:55 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please identify all flying birds and click on them.', "This is a picture that don't look like please identify all flying birds and click on them."], 'prompt': 'Please identifу all flying birds and click on them', 'timit': '0.726s'}
+2023-12-19 04:28:04 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_SUCCESS: 'success'>}
+2023-12-19 04:28:07 | SUCCESS    | epic_games.agent:_login:253 | login - {'result': 'Successfully refreshed tokens'}
+2023-12-19 04:28:20 | SUCCESS    | epic_games.agent:flush_token:280 | flush_token - {'path': PosixPath('/home/runner/work/epic-claimer/epic-claimer/epic/user_data_dir/epic-games@sallusxavier/ctx_cookie.json')}
+2023-12-19 04:28:20 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Destiny 2: Legacy Collection', 'url': 'https://store.epicgames.com/en-US/p/destiny-2--legacy-collection-2023'}
+2023-12-19 04:28:20 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/destiny-2--legacy-collection-2023'}
+2023-12-19 04:28:29 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2023-12-19 04:28:31 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2023-12-19 04:28:33 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please identify all flуing birds аnԁ click on them'}
+2023-12-19 04:28:34 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please identify all flying birds and click on them.', "This is a picture that don't look like please identify all flying birds and click on them."], 'prompt': 'Please identify all flуing birds аnԁ click on them', 'timit': '0.748s'}
+2023-12-19 04:28:42 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2023-12-19 04:29:18 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please identify all flying birds and click on them'}
+2023-12-19 04:29:19 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please identify all flying birds and click on them.', "This is a picture that don't look like please identify all flying birds and click on them."], 'prompt': 'Please identify all flying birds and click on them', 'timit': '0.690s'}
+2023-12-19 04:29:33 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2023-12-19 04:30:09 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Ρlеase idеntify all flying birds and сlick on them'}
+2023-12-19 04:30:10 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like ρlease identify all flying birds and click on them.', "This is a picture that don't look like ρlease identify all flying birds and click on them."], 'prompt': 'Ρlеase idеntify all flying birds and сlick on them', 'timit': '0.680s'}
+2023-12-19 04:30:20 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2023-12-19 04:30:56 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Ρlease identify all flying birds and click on them'}
+2023-12-19 04:30:57 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like ρlease identify all flying birds and click on them.', "This is a picture that don't look like ρlease identify all flying birds and click on them."], 'prompt': 'Ρlease identify all flying birds and click on them', 'timit': '0.724s'}
+2023-12-19 04:31:08 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2023-12-19 04:31:44 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please identifу all flying birds and click on them'}
+2023-12-19 04:31:45 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please identify all flying birds and click on them.', "This is a picture that don't look like please identify all flying birds and click on them."], 'prompt': 'Please identifу all flying birds and click on them', 'timit': '0.699s'}
+2023-12-19 04:31:58 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2023-12-19 04:32:34 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please іdentify all flying birds and clіck οn tһem'}
+2023-12-19 04:32:35 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please identify all flying birds and click on them.', "This is a picture that don't look like please identify all flying birds and click on them."], 'prompt': 'Please іdentify all flying birds and clіck οn tһem', 'timit': '0.696s'}
+2023-12-19 04:32:46 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2023-12-19 04:33:22 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Plеase identify all flying birds and click on them'}
+2023-12-19 04:33:23 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please identify all flying birds and click on them.', "This is a picture that don't look like please identify all flying birds and click on them."], 'prompt': 'Plеase identify all flying birds and click on them', 'timit': '0.698s'}
+2023-12-19 04:33:31 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2023-12-19 04:34:07 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please identify all flying birds and click on them'}
+2023-12-19 04:34:08 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like please identify all flying birds and click on them.', "This is a picture that don't look like please identify all flying birds and click on them."], 'prompt': 'Please identify all flying birds and click on them', 'timit': '0.717s'}
+2023-12-19 04:34:17 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2023-12-19 04:35:17 | ERROR    | hcaptcha_challenger.agents.playwright.control:execute:615 | task interrupt <backcall> - {'reason': 'Failed to obtain challenge task'}
+2023-12-19 04:35:17 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
